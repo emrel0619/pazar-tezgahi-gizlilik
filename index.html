@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pazar Tezgâhı: Gizlilik Politikası</title>
+<style>
+  :root{--bg:#fff8ec;--fg:#3a2410;--soft:#7a5a3a;--line:#ecd9bb;--link:#b35418}
+  @media (prefers-color-scheme:dark){:root{--bg:#1e150c;--fg:#f6e8d2;--soft:#cdb08a;--line:#4a3520;--link:#ffb070}}
+  body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+  main{max-width:720px;margin:0 auto;padding:28px 16px 60px}
+  h1{font-size:28px;line-height:1.2;margin:0 0 6px}
+  h2{font-size:20px;margin:32px 0 8px;padding-top:12px;border-top:1px solid var(--line)}
+  .meta{color:var(--soft);font-size:15px;margin:0 0 20px}
+  a{color:var(--link)}
+  ul{padding-left:22px}
+</style>
+</head>
+<body>
+<main>
+<h1>Pazar Tezgâhı: Gizlilik Politikası</h1>
+
+<p class="meta">Son güncelleme: 21 Kasım 2026 · Geliştirici: Ironarm Studio (Fatih Demirkol) · İletişim: <a href="mailto:ironarmstudio@gmail.com">ironarmstudio@gmail.com</a></p>
+
+<h2>1. Kısaca</h2>
+<p>Pazar Tezgâhı bir bulmaca oyunudur. Oyunu oynamak için hesap açman gerekmez. Oyun konumunu, rehberini, fotoğraflarını, mikrofonunu ya da kameranı istemez. Oyunda reklam ve gerçek parayla satın alma yoktur.</p>
+
+<h2>2. Cihazında saklanan bilgiler</h2>
+<p>İlerlemen (geçtiğin bölümler, yıldızların, aldığın süsler, ayarların ve ilk açılışta seçtiğin doğum yılı) <strong>kendi cihazında</strong> saklanır. Oyunu silersen bu bilgiler de silinir.</p>
+
+<h2>3. Google hesabıyla bağlanma (isteğe bağlı)</h2>
+<p>Ayarlardaki “Google ile bağlan” seçeneğini kullanırsan giriş Google Firebase Authentication ile yapılır. Bu amaçla adın, e-posta adresin ve Google hesap kimliğin işlenir. İlerleme kaydın, telefon değişse de kaybolmasın diye Google Cloud Firestore'da senin hesabına bağlı olarak saklanır; ona yalnızca sen erişebilirsin. Bağlanmazsan bu bilgilerin hiçbiri toplanmaz.</p>
+
+<h2>4. Oyun istatistikleri ve çökme raporları</h2>
+<p>Oyunu geliştirmek (hangi bölümün zor olduğunu görmek, hataları düzeltmek) için Google Firebase Analytics ve Firebase Crashlytics kullanılır. Toplanan bilgiler:</p>
+<ul>
+  <li><strong>Oyun içi olaylar:</strong> bölüm başlangıcı ve sonu (kazanma ya da kaybetme, hamle sayısı), yarıda bırakılan bölüm, kullanılan yardımlar, alınan süsler, tamamlanan alanlar.</li>
+  <li><strong>Teknik bilgiler:</strong> uygulamaya özel rastgele bir kimlik, cihaz modeli, Android sürümü, dil, ülke düzeyinde konum (IP adresinden tahmin edilir; kesin konum alınmaz), uygulama sürümü, oturum süresi.</li>
+  <li><strong>Çökme raporları:</strong> hata anındaki teknik durum.</li>
+</ul>
+<p>Bu bilgiler adını ya da e-posta adresini içermez, seni tanımlamak için kullanılmaz, satılmaz ve reklam için kullanılmaz. Veriler aktarılırken şifrelenir. Google'ın bu verileri nasıl işlediği: <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a>. İstatistik verileri en fazla 14 ay saklanır.</p>
+
+<h2 id="silme">5. Hesabın ve verilerin silinmesi</h2>
+<p><strong>Oyunun içinden:</strong> Ayarlar → hesabının altındaki “Hesabımı ve bulut kaydımı sil” → “Evet, sil”. Buluttaki kaydın ve oyun hesabın (ad, e-posta, hesap kimliği) hemen silinir. Telefonundaki ilerleme kalır; onu da silmek için oyunu kaldırman yeterli.</p>
+<p><strong>Oyunu silmiş olsan da:</strong> <a href="mailto:ironarmstudio@gmail.com?subject=Pazar%20Tezg%C3%A2h%C4%B1%20hesap%20silme">ironarmstudio@gmail.com</a> adresine, bağlandığın Google hesabının e-posta adresini yazarak silme isteği gönder; kaydın ve hesabın 30 gün içinde silinir. İstatistik verileri kişiye bağlı olmadığı için en fazla 14 ay sonra kendiliğinden silinir.</p>
+
+<h2>6. Çocuklar</h2>
+<p>Oyun 13 yaş ve üzeri oyuncular için tasarlanmıştır, 13 yaşından küçük çocuklara yönelik değildir. 13 yaşından küçük bir çocuğa ait veri toplandığını fark edersen bize yaz; silinmesini sağlarız.</p>
+
+<h2>7. Değişiklikler</h2>
+<p>Bu politika değişirse (örneğin oyuna reklam eklenirse) güncel hâli bu sayfada yayımlanır ve en üstteki tarih güncellenir.</p>
+
+<h2>8. İletişim</h2>
+<p>Sorular ve veri silme istekleri için: <a href="mailto:ironarmstudio@gmail.com">ironarmstudio@gmail.com</a></p>
+</main>
+</body>
+</html>
